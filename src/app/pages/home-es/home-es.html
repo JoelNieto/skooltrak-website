@@ -1,0 +1,579 @@
+<div style="width: 100%; background: #FFFFFF; color: #0B1530; font-family: 'Geist', system-ui, sans-serif;">
+
+<!-- ============ NAV ============ -->
+<header style="position: sticky; top: 0; z-index: 10; background: #FFFFFF; border-bottom: 1px solid #DCE2EF;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+    <a href="/#inicio" aria-label="Inicio de Skooltrak" style="display: flex; align-items: center;"><img src="/skooltrak-logo.svg" alt="Skooltrak" style="height: 28px; width: auto; display: block;"></a>
+    <nav aria-label="Principal" style="display: flex; align-items: center; gap: 28px; flex-wrap: wrap; font-size: 15px; font-weight: 500;">
+      <a href="/#perfiles" style="color: #26314F; text-decoration: none;">Para quién es</a>
+      <a href="/#plataforma" style="color: #26314F; text-decoration: none;">Plataforma</a>
+      <a href="/#seguridad" style="color: #26314F; text-decoration: none;">Seguridad</a>
+      <a href="/#comenzar" style="color: #26314F; text-decoration: none;">Cómo empezar</a>
+    </nav>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a href="/en" lang="en" aria-label="View in English" style="font-size: 14px; font-weight: 600; color: #475069; text-decoration: none; padding: 8px 12px; border-radius: 999px; border: 1px solid #DCE2EF;">EN</a>
+      <a href="/#" style="font-size: 14px; font-weight: 600; color: #0B1530; text-decoration: none; padding: 12px 16px;">Iniciar sesión</a>
+      <a href="/#demo" style="font-size: 14px; font-weight: 600; color: #FFFFFF; background: #1D4ED8; text-decoration: none; padding: 12px 20px; border-radius: 999px;">Agendar una demo</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="inicio" style="padding: clamp(48px, 7vw, 96px) 0 clamp(56px, 7vw, 104px);">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(480px, 100%), 1fr)); gap: clamp(40px, 5vw, 72px); align-items: center;">
+    <div style="display: flex; flex-direction: column; gap: 28px;">
+      <p style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; color: #1D4ED8; background: #EEF2FD; padding: 6px 14px; border-radius: 999px;">Gestión escolar + comunicación · Preescolar a 12°</p>
+      <h1 style="font-family: 'Space Grotesk', 'Geist', sans-serif; font-weight: 700; font-size: clamp(38px, 5vw, 62px); line-height: 1.05; letter-spacing: -0.025em; color: #0B1530; text-wrap: balance;">Todo su colegio, en la misma pista.</h1>
+      <p style="font-size: clamp(18px, 1.6vw, 20px); line-height: 1.55; color: #26314F; max-width: 540px; text-wrap: pretty;">Skooltrak reúne la administración, las clases, las calificaciones y la comunicación con las familias en un solo lugar seguro. El personal deja de perseguir pendientes, los docentes vuelven a enseñar y las familias no se pierden ni una vuelta.</p>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="/#demo" style="display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 600; color: #FFFFFF; background: #1D4ED8; text-decoration: none; padding: 16px 28px; border-radius: 999px;">Agendar una demo
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></a>
+        <a href="/#perfiles" style="display: inline-flex; align-items: center; font-size: 16px; font-weight: 600; color: #0B1530; background: #E9EDF6; text-decoration: none; padding: 16px 28px; border-radius: 999px;">Ver cómo funciona</a>
+      </div>
+      <ul style="display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 14px; color: #475069;">
+        <li style="display: flex; align-items: center; gap: 8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#15803D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Hecho para el sistema educativo panameño</li>
+        <li style="display: flex; align-items: center; gap: 8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#15803D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>En español e inglés, con el mismo cuidado</li>
+        <li style="display: flex; align-items: center; gap: 8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#15803D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Con los colores de su colegio</li>
+      </ul>
+    </div>
+
+    <!-- hero composition -->
+    <div aria-hidden="true" style="position: relative; background: #F4F6FB; border: 1px solid #DCE2EF; border-radius: 28px; padding: clamp(20px, 3vw, 36px); min-height: 520px; overflow: hidden; display: flex; flex-direction: column; gap: 16px; justify-content: center;">
+      <div style="position: absolute; left: -40px; bottom: 36px; width: 70%; height: 40px; border-radius: 999px; background: #1D4ED8;"></div>
+      <div style="position: absolute; right: -60px; bottom: 92px; width: 55%; height: 40px; border-radius: 999px; background: #0B1530;"></div>
+      <div style="position: absolute; left: calc(70% - 12px); bottom: 32px; width: 48px; height: 48px; border-radius: 999px; background: #F97316;"></div>
+
+      <div style="position: relative; background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 14px; max-width: 440px;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <div style="width: 40px; height: 40px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 14px;">MR</div>
+          <div style="flex: 1; display: flex; flex-direction: column;">
+            <span style="font-size: 14px; font-weight: 600;">Prof. Rivera · 4.° B</span>
+            <span style="font-size: 12px; font-weight: 500; color: #475069;">Familias de 4.° B · 9:41 a. m.</span>
+          </div>
+          <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; color: #C2410C;"><span style="width: 8px; height: 8px; border-radius: 999px; background: #F97316;"></span>Nuevo</span>
+        </div>
+        <p style="font-size: 17px; line-height: 26px; color: #0B1530;">Gira al Biomuseo este viernes. <strong style="font-weight: 600;">El permiso firmado vence el jueves a las 3:00 p. m.</strong></p>
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+          <span style="font-size: 14px; font-weight: 600; color: #FFFFFF; background: #1D4ED8; padding: 10px 18px; border-radius: 999px;">Firmar permiso</span>
+          <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: #15803D;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 7 17l-5-5"></path><path d="m22 10-7.5 7.5L13 16"></path></svg>Leído por 24 de 28 familias</span>
+        </div>
+      </div>
+
+      <div style="position: relative; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; max-width: 440px; margin-left: auto;">
+        <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <span style="font-size: 12px; font-weight: 500; color: #475069;">Asistencia · Hoy</span>
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; line-height: 32px;">27<span style="font-size: 16px; color: #475069; font-weight: 500;"> / 28</span></span>
+          <span style="font-size: 12px; font-weight: 600; color: #15803D;">Presentes · guardado 7:52 a. m.</span>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <span style="font-size: 12px; font-weight: 500; color: #475069;">Matemáticas · Prueba 3</span>
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; line-height: 32px;">4.6</span>
+          <span style="font-size: 12px; font-weight: 600; color: #1D4ED8;">Nota publicada</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEM ============ -->
+<section style="background: #F4F6FB; border-top: 1px solid #DCE2EF; border-bottom: 1px solid #DCE2EF; padding: clamp(64px, 8vw, 112px) 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: flex; flex-direction: column; gap: 48px;">
+    <div style="display: flex; flex-direction: column; gap: 16px; max-width: 780px;">
+      <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #1D4ED8;">El problema</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance;">Una sola plataforma en lugar de cinco apps, tres chats y una pila de papeles.</h2>
+      <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">La mayoría de los colegios funciona con un rompecabezas de herramientas que nadie eligió a propósito. Los mensajes se pierden, las familias quedan por fuera y el personal pasa las noches respondiendo la misma pregunta dos veces.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 24px;">
+      <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="width: 44px; height: 44px; border-radius: 999px; background: #E9EDF6; color: #26314F; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg></div>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Chats de grupo sin nadie a cargo</h3>
+        <p style="font-size: 16px; line-height: 24px; color: #475069;">Los avisos importantes se hunden entre stickers y conversaciones paralelas. Los docentes terminan respondiendo a las 10 p. m. desde su número personal.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="width: 44px; height: 44px; border-radius: 999px; background: #E9EDF6; color: #26314F; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M9 12h6M9 16h4"></path></svg></div>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Permisos en papel y hojas de cálculo</h3>
+        <p style="font-size: 16px; line-height: 24px; color: #475069;">Permisos que nunca regresan. Pagos, pedidos de uniformes y listas de libros llevados a mano en archivos que solo una persona entiende.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="width: 44px; height: 44px; border-radius: 999px; background: #E9EDF6; color: #26314F; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1"></rect><rect x="14" y="3" width="7" height="5" rx="1"></rect><rect x="14" y="12" width="7" height="9" rx="1"></rect><rect x="3" y="16" width="7" height="5" rx="1"></rect></svg></div>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Un usuario distinto para cada tarea</h3>
+        <p style="font-size: 16px; line-height: 24px; color: #475069;">Las notas en un sistema, los pagos en otro y los comunicados por correo. Las familias se cansan y la voz del colegio se dispersa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONAS OVERVIEW ============ -->
+<section id="perfiles" style="padding: clamp(64px, 8vw, 112px) 0 clamp(32px, 4vw, 48px);">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: flex; flex-direction: column; gap: 40px;">
+    <div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px;">
+      <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #1D4ED8;">Para quién es</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance;">Hecho para toda la comunidad educativa.</h2>
+      <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">Cuatro tipos de usuario entran a Skooltrak cada día, y cada uno ve exactamente lo que necesita. El mismo colegio, la misma información, cada quien en su carril.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 16px;">
+      <a href="/#administracion" style="text-decoration: none; color: #0B1530; border: 1px solid #DCE2EF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF;">
+        <div style="width: 48px; height: 48px; border-radius: 999px; background: #1D4ED8; color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1"></rect><rect x="14" y="3" width="7" height="5" rx="1"></rect><rect x="14" y="12" width="7" height="9" rx="1"></rect><rect x="3" y="16" width="7" height="5" rx="1"></rect></svg></div>
+        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Administración y personal</span>
+        <span style="font-size: 15px; line-height: 22px; color: #475069;">Configure el colegio una vez y gestiónelo desde una sola consola.</span>
+        <span style="margin-top: auto; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: #1D4ED8;">Ver qué incluye <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+      </a>
+      <a href="/#docentes" style="text-decoration: none; color: #0B1530; border: 1px solid #DCE2EF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF;">
+        <div style="width: 48px; height: 48px; border-radius: 999px; background: #0B1530; color: #FFFFFF; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg></div>
+        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Docentes</span>
+        <span style="font-size: 15px; line-height: 22px; color: #475069;">Asistencia, notas y mensajes a las familias en minutos, no en noches.</span>
+        <span style="margin-top: auto; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: #1D4ED8;">Ver qué incluye <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+      </a>
+      <a href="/#familias" style="text-decoration: none; color: #0B1530; border: 1px solid #DCE2EF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF;">
+        <div style="width: 48px; height: 48px; border-radius: 999px; background: #F97316; color: #0B1530; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10a2 2 0 0 1 .71-1.53l7-6a2 2 0 0 1 2.58 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 21v-8h6v8"></path></svg></div>
+        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Padres y acudientes</span>
+        <span style="font-size: 15px; line-height: 22px; color: #475069;">Cada hijo, cada aviso y cada pago en un solo lugar de confianza.</span>
+        <span style="margin-top: auto; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: #1D4ED8;">Ver qué incluye <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+      </a>
+      <a href="/#estudiantes" style="text-decoration: none; color: #0B1530; border: 1px solid #DCE2EF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF;">
+        <div style="width: 48px; height: 48px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path><path d="M22 10v6"></path></svg></div>
+        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Estudiantes</span>
+        <span style="font-size: 15px; line-height: 22px; color: #475069;">Un espacio seguro y supervisado para seguir sus clases y trabajar en equipo.</span>
+        <span style="margin-top: auto; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: #1D4ED8;">Ver qué incluye <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONA: ADMINS ============ -->
+<section id="administracion" style="padding: clamp(48px, 6vw, 80px) 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: clamp(40px, 5vw, 80px); align-items: center;">
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <p style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #1D4ED8; background: #EEF2FD; padding: 6px 14px; border-radius: 999px;">Para administración y personal</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.12; letter-spacing: -0.02em; text-wrap: balance;">Todo el colegio desde una sola consola.</h2>
+      <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">Configure su colegio tal como funciona en la realidad, y deje que todo lo demás se desprenda de ahí: quién enseña qué, quién pertenece a dónde y quién recibe cada aviso.</p>
+      <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 16px; line-height: 24px; color: #26314F;">
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Planes de estudio a su medida.</strong> Varios planes por nivel, asignaturas flexibles y docentes asignados a cada una.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Grupos y horarios en un solo lugar.</strong> Cada grupo con su docente consejero y su horario semanal.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Un mural que sí se lee.</strong> Publique una vez para todo el colegio, un nivel o un grupo, y vea quién lo leyó.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Tienda y pagos bajo control.</strong> Uniformes, libros y actividades, con cada pedido y cada pago en el mismo sistema.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Usted decide quién habla con quién.</strong> Los roles y canales salen de su matrícula, no de quien tenga un número de teléfono.</span></li>
+      </ul>
+    </div>
+
+    <div aria-hidden="true" style="background: #F4F6FB; border: 1px solid #DCE2EF; border-radius: 28px; padding: clamp(20px, 3vw, 32px); display: flex; flex-direction: column; gap: 16px;">
+      <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; overflow: hidden;">
+        <div style="padding: 16px 20px; border-bottom: 1px solid #DCE2EF; display: flex; align-items: center; justify-content: space-between; gap: 12px;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 18px;">Planes de estudio · 2026</span>
+          <span style="font-size: 13px; font-weight: 600; color: #FFFFFF; background: #1D4ED8; padding: 8px 14px; border-radius: 999px;">Nuevo plan</span>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+          <div style="display: flex; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid #DCE2EF;">
+            <span style="flex: 1; font-size: 14px; font-weight: 600;">Preescolar</span>
+            <span style="font-size: 13px; color: #475069;">Prekínder · Kínder</span>
+            <span style="font-size: 12px; font-weight: 600; color: #26314F; background: #E9EDF6; padding: 4px 10px; border-radius: 999px;">4 grupos</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid #DCE2EF; background: #EEF2FD;">
+            <span style="flex: 1; font-size: 14px; font-weight: 600; color: #1D4ED8;">Primaria</span>
+            <span style="font-size: 13px; color: #475069;">1° – 6°</span>
+            <span style="font-size: 12px; font-weight: 600; color: #26314F; background: #FFFFFF; padding: 4px 10px; border-radius: 999px;">12 grupos</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid #DCE2EF;">
+            <span style="flex: 1; font-size: 14px; font-weight: 600;">Premedia</span>
+            <span style="font-size: 13px; color: #475069;">7° – 9°</span>
+            <span style="font-size: 12px; font-weight: 600; color: #26314F; background: #E9EDF6; padding: 4px 10px; border-radius: 999px;">6 grupos</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; padding: 14px 20px;">
+            <span style="flex: 1; font-size: 14px; font-weight: 600;">Media · Bachiller en Ciencias</span>
+            <span style="font-size: 13px; color: #475069;">10° – 12°</span>
+            <span style="font-size: 12px; font-weight: 600; color: #26314F; background: #E9EDF6; padding: 4px 10px; border-radius: 999px;">6 grupos</span>
+          </div>
+        </div>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg>
+          <span style="font-size: 12px; font-weight: 500; color: #475069;">Mural del colegio · Todo el colegio</span>
+        </div>
+        <span style="font-size: 16px; font-weight: 600;">La tienda de uniformes abre el lunes</span>
+        <div style="height: 10px; border-radius: 999px; background: #E9EDF6; overflow: hidden;"><div style="width: 86%; height: 100%; border-radius: 999px; background: #1D4ED8;"></div></div>
+        <span style="font-size: 12px; font-weight: 500; color: #475069;">Leído por 412 de 478 familias · hace 2 horas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONA: TEACHERS ============ -->
+<section id="docentes" style="padding: clamp(48px, 6vw, 80px) 0; background: #F4F6FB; border-top: 1px solid #DCE2EF; border-bottom: 1px solid #DCE2EF;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: clamp(40px, 5vw, 80px); align-items: center;">
+    <div aria-hidden="true" style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 28px; padding: clamp(20px, 3vw, 32px); display: flex; flex-direction: column; gap: 16px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+        <div style="display: flex; flex-direction: column; gap: 2px;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 22px;">4.° B · Asistencia</span>
+          <span style="font-size: 13px; color: #475069;">Lunes · 1.ª hora · Matemáticas</span>
+        </div>
+        <span style="font-size: 13px; font-weight: 600; color: #0B1530; background: #E9EDF6; padding: 8px 14px; border-radius: 999px;">Todos presentes</span>
+      </div>
+      <div style="border: 1px solid #DCE2EF; border-radius: 16px; overflow: hidden;">
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-bottom: 1px solid #DCE2EF;">
+          <div style="width: 32px; height: 32px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600;">AC</div>
+          <span style="flex: 1; font-size: 14px; font-weight: 500;">Ana Castillo</span>
+          <span style="display: flex; gap: 4px; background: #F4F6FB; padding: 3px; border-radius: 999px;"><span style="font-size: 12px; font-weight: 600; color: #FFFFFF; background: #15803D; padding: 4px 10px; border-radius: 999px;">Presente</span><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Tarde</span><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Ausente</span></span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-bottom: 1px solid #DCE2EF;">
+          <div style="width: 32px; height: 32px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600;">DM</div>
+          <span style="flex: 1; font-size: 14px; font-weight: 500;">Diego Morales</span>
+          <span style="display: flex; gap: 4px; background: #F4F6FB; padding: 3px; border-radius: 999px;"><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Presente</span><span style="font-size: 12px; font-weight: 600; color: #FFFFFF; background: #A16207; padding: 4px 10px; border-radius: 999px;">Tarde</span><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Ausente</span></span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-bottom: 1px solid #DCE2EF;">
+          <div style="width: 32px; height: 32px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600;">SP</div>
+          <span style="flex: 1; font-size: 14px; font-weight: 500;">Sofía Pérez</span>
+          <span style="display: flex; gap: 4px; background: #F4F6FB; padding: 3px; border-radius: 999px;"><span style="font-size: 12px; font-weight: 600; color: #FFFFFF; background: #15803D; padding: 4px 10px; border-radius: 999px;">Presente</span><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Tarde</span><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Ausente</span></span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px;">
+          <div style="width: 32px; height: 32px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600;">LR</div>
+          <span style="flex: 1; font-size: 14px; font-weight: 500;">Luis Rodríguez</span>
+          <span style="display: flex; gap: 4px; background: #F4F6FB; padding: 3px; border-radius: 999px;"><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Presente</span><span style="font-size: 12px; font-weight: 600; color: #475069; padding: 4px 10px;">Tarde</span><span style="font-size: 12px; font-weight: 600; color: #FFFFFF; background: #B91C1C; padding: 4px 10px; border-radius: 999px;">Ausente</span></span>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+        <span style="font-size: 13px; color: #475069;">Las familias de estudiantes ausentes reciben aviso automático.</span>
+        <span style="font-size: 14px; font-weight: 600; color: #FFFFFF; background: #1D4ED8; padding: 10px 20px; border-radius: 999px;">Guardar</span>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <p style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #1D4ED8; background: #EEF2FD; padding: 6px 14px; border-radius: 999px;">Para docentes</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.12; letter-spacing: -0.02em; text-wrap: balance;">Más tiempo para enseñar. Menos para perseguir.</h2>
+      <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">Sus grupos, asignaturas y horario están listos al entrar. La rutina toma minutos, y el día vuelve a ser del salón de clases.</p>
+      <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 16px; line-height: 24px; color: #26314F;">
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Asistencia en pocos toques.</strong> Las familias se enteran de una ausencia sin que usted tenga que llamar.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Notas y evaluación de hábitos.</strong> Publique por asignatura y trimestre; las familias las ven en cuanto usted las publica.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Canales con propósito.</strong> Uno por grupo, asignatura o tarea, para que cada conversación llegue al lugar correcto.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Hable con las familias sin dar su número.</strong> Mensajes directos con padres y acudientes, con confirmación de lectura.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONA: FAMILIES ============ -->
+<section id="familias" style="padding: clamp(48px, 6vw, 80px) 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: clamp(40px, 5vw, 80px); align-items: center;">
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <p style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #1D4ED8; background: #EEF2FD; padding: 6px 14px; border-radius: 999px;">Para padres y acudientes</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.12; letter-spacing: -0.02em; text-wrap: balance;">Todo sobre sus hijos, en un lugar de confianza.</h2>
+      <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">Se acabó buscar entre chats la fecha de la gira. Lo que tiene que hacer, y para cuándo, siempre aparece primero.</p>
+      <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 16px; line-height: 24px; color: #26314F;">
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Un solo inicio para todos sus hijos.</strong> Cambie entre hermanos de distintos grados con un toque.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Notas, asistencia y horario al momento.</strong> No al final del trimestre.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Escriba directamente a los docentes.</strong> Una línea privada con los maestros de su hijo, dentro del colegio.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Pague y compre en la tienda del colegio.</strong> Uniformes, libros y actividades, con sus recibos en la misma app.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">En español o en inglés.</strong> Lea todo en el idioma en que se sienta más cómodo.</span></li>
+      </ul>
+    </div>
+
+    <div aria-hidden="true" style="background: #F4F6FB; border: 1px solid #DCE2EF; border-radius: 28px; padding: clamp(24px, 4vw, 48px) 20px; display: flex; justify-content: center; position: relative; overflow: hidden;">
+      <div style="position: absolute; left: -30px; top: 60px; width: 45%; height: 36px; border-radius: 999px; background: #1D4ED8;"></div>
+      <div style="position: absolute; right: -40px; bottom: 70px; width: 40%; height: 36px; border-radius: 999px; background: #0B1530;"></div>
+      <div style="position: relative; width: 320px; max-width: 100%; background: #F4F6FB; border: 8px solid #0B1530; border-radius: 44px; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="background: #FFFFFF; padding: 28px 18px 14px; border-bottom: 1px solid #DCE2EF; display: flex; flex-direction: column; gap: 12px;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 22px;">Hola, Carmen</span>
+          <div style="display: flex; gap: 8px;">
+            <span style="font-size: 12px; font-weight: 600; color: #FFFFFF; background: #1D4ED8; padding: 6px 12px; border-radius: 999px;">Mateo · 4.° B</span>
+            <span style="font-size: 12px; font-weight: 600; color: #26314F; background: #E9EDF6; padding: 6px 12px; border-radius: 999px;">Lucía · Kínder</span>
+          </div>
+        </div>
+        <div style="padding: 14px; display: flex; flex-direction: column; gap: 10px;">
+          <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.02em; color: #A16207;">PENDIENTE · JUE 3:00 P. M.</span>
+              <span style="width: 8px; height: 8px; border-radius: 999px; background: #F97316;"></span>
+            </div>
+            <span style="font-size: 15px; font-weight: 600; line-height: 20px;">Firmar el permiso para el Biomuseo</span>
+            <span style="align-self: flex-start; font-size: 12px; font-weight: 600; color: #FFFFFF; background: #1D4ED8; padding: 8px 14px; border-radius: 999px;">Firmar ahora</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 12px; display: flex; flex-direction: column; gap: 4px;">
+              <span style="font-size: 11px; font-weight: 500; color: #475069;">Hoy</span>
+              <span style="font-size: 14px; font-weight: 600; color: #15803D;">Presente</span>
+            </div>
+            <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 12px; display: flex; flex-direction: column; gap: 4px;">
+              <span style="font-size: 11px; font-weight: 500; color: #475069;">Matemáticas · Prueba 3</span>
+              <span style="font-size: 14px; font-weight: 600;">4.6</span>
+            </div>
+          </div>
+          <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 14px; display: flex; gap: 10px;">
+            <div style="flex: none; width: 32px; height: 32px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600;">MR</div>
+            <div style="display: flex; flex-direction: column; gap: 2px;">
+              <span style="font-size: 12px; font-weight: 600;">Prof. Rivera</span>
+              <span style="font-size: 13px; line-height: 18px; color: #26314F;">Mateo leyó muy bien hoy. ¡Gracias por practicar en casa!</span>
+            </div>
+          </div>
+          <div style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 16px; padding: 14px; display: flex; align-items: center; gap: 10px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+            <span style="flex: 1; font-size: 13px; font-weight: 500;">Pedido de uniformes</span>
+            <span style="font-size: 12px; font-weight: 600; color: #15803D;">Pagado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONA: STUDENTS ============ -->
+<section id="estudiantes" style="padding: clamp(48px, 6vw, 80px) 0 clamp(64px, 8vw, 112px); background: #F4F6FB; border-top: 1px solid #DCE2EF; border-bottom: 1px solid #DCE2EF;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: clamp(40px, 5vw, 80px); align-items: center;">
+    <div aria-hidden="true" style="background: #FFFFFF; border: 1px solid #DCE2EF; border-radius: 28px; overflow: hidden; display: flex; flex-direction: column;">
+      <div style="padding: 20px 24px; border-bottom: 1px solid #DCE2EF; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+        <div style="width: 40px; height: 40px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"></path></svg></div>
+        <div style="flex: 1; display: flex; flex-direction: column;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 18px;">Ciencias 7.° A · Proyecto del volcán</span>
+          <span style="font-size: 12px; font-weight: 500; color: #475069;">Canal de la tarea · 31 miembros</span>
+        </div>
+        <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; color: #15803D; background: #FFFFFF; border: 1px solid #DCE2EF; padding: 6px 12px; border-radius: 999px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>Docente presente</span>
+      </div>
+      <div style="padding: 20px 24px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="border: 1px solid #DCE2EF; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap;">
+            <span style="font-size: 14px; font-weight: 600;">Tu avance</span>
+            <span style="font-size: 12px; font-weight: 600; color: #A16207;">Vence el viernes</span>
+          </div>
+          <div style="position: relative; height: 12px; border-radius: 999px; background: #E9EDF6;">
+            <div style="width: 60%; height: 100%; border-radius: 999px; background: #1D4ED8;"></div>
+            <div style="position: absolute; left: calc(60% - 10px); top: -4px; width: 20px; height: 20px; border-radius: 999px; background: #F97316; border: 3px solid #FFFFFF;"></div>
+          </div>
+          <span style="font-size: 12px; font-weight: 500; color: #475069;">3 de 5 pasos · Siguiente: armar la maqueta</span>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <div style="flex: none; width: 32px; height: 32px; border-radius: 999px; background: #0B1530; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600;">PG</div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <span style="font-size: 12px; font-weight: 600;">Prof. Gómez <span style="font-weight: 500; color: #1D4ED8; background: #EEF2FD; padding: 2px 8px; border-radius: 999px; margin-left: 4px;">Docente</span></span>
+            <span style="font-size: 14px; line-height: 20px; color: #26314F; background: #F4F6FB; padding: 10px 14px; border-radius: 4px 16px 16px 16px;">Recuerden: las fotos de cada paso van en este canal antes del viernes.</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <div style="flex: none; width: 32px; height: 32px; border-radius: 999px; background: #EEF2FD; color: #1D4ED8; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600;">VS</div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <span style="font-size: 12px; font-weight: 600;">Valeria S.</span>
+            <span style="font-size: 14px; line-height: 20px; color: #26314F; background: #F4F6FB; padding: 10px 14px; border-radius: 4px 16px 16px 16px;">¡Nuestro grupo terminó la base! Ya la estamos subiendo.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <p style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #1D4ED8; background: #EEF2FD; padding: 6px 14px; border-radius: 999px;">Para estudiantes</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.12; letter-spacing: -0.02em; text-wrap: balance;">Un espacio seguro para aprender juntos.</h2>
+      <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">Los estudiantes tienen un solo lugar para ver lo que deben entregar, seguir su avance y trabajar con sus compañeros, siempre en un espacio que gestiona el colegio.</p>
+      <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 16px; line-height: 24px; color: #26314F;">
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Saben qué sigue.</strong> Tareas, fechas de entrega y el horario de la semana en una sola pantalla.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Ven su avance, no solo la nota final.</strong> Siguen cada asignatura a lo largo del trimestre.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Trabajan juntos en canales supervisados.</strong> Uno por grupo, asignatura o tarea, abiertos y acompañados por sus docentes.</span></li>
+        <li style="display: flex; gap: 12px;"><svg style="flex: none; margin-top: 2px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span><strong style="font-weight: 600; color: #0B1530;">Pensado para cada edad.</strong> Los de preescolar no necesitan cuenta: su familia los acompaña.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SAFETY ============ -->
+<section id="seguridad" style="background: #0B1530; color: #F1F5FF; padding: clamp(64px, 8vw, 112px) 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: flex; flex-direction: column; gap: 48px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 24px 64px; align-items: end;">
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #93C5FD;">Seguro desde el diseño</p>
+        <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance;">Cada conversación tiene su lugar, y un adulto presente.</h2>
+      </div>
+      <p style="font-size: 18px; line-height: 28px; color: #D3DAEC; text-wrap: pretty;">Skooltrak no es una app de chat abierta con el logo del colegio. Las reglas que cuidan a los niños están en cómo funciona la plataforma, no escondidas en una página de configuración.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 16px;">
+      <div style="background: #131F42; border: 1px solid #24315A; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Canales con alcance definido</h3>
+        <p style="font-size: 15px; line-height: 23px; color: #A7B0C8;">Las conversaciones de estudiantes pertenecen a un nivel, grupo, asignatura o tarea. Nada pasa por fuera.</p>
+      </div>
+      <div style="background: #131F42; border: 1px solid #24315A; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Los docentes abren y supervisan</h3>
+        <p style="font-size: 15px; line-height: 23px; color: #A7B0C8;">Administración y docentes crean los canales de estudiantes y pueden ver todo lo que se dice en ellos.</p>
+      </div>
+      <div style="background: #131F42; border: 1px solid #24315A; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">Sin mensajes privados con estudiantes</h3>
+        <p style="font-size: 15px; line-height: 23px; color: #A7B0C8;">Los mensajes directos son solo entre el colegio y los padres o acudientes. Los estudiantes nunca tienen una línea privada.</p>
+      </div>
+      <div style="background: #131F42; border: 1px solid #24315A; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 26px;">El colegio decide quién entra</h3>
+        <p style="font-size: 15px; line-height: 23px; color: #A7B0C8;">El acceso sale de su matrícula y sus roles. Cuando una familia o un docente se va, su acceso se va con ellos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLATFORM ============ -->
+<section id="plataforma" style="padding: clamp(64px, 8vw, 112px) 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: flex; flex-direction: column; gap: 48px;">
+    <div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px;">
+      <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #1D4ED8;">La plataforma</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance;">Todo lo que mueve al colegio, en un solo sistema.</h2>
+      <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">Lo académico, la comunicación y la tienda comparten la misma matrícula, así que nada se registra dos veces.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 1px; background: #DCE2EF; border: 1px solid #DCE2EF; border-radius: 16px; overflow: hidden;">
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Mural del colegio</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Comunicados oficiales de la administración, para todo el colegio o un solo nivel.</p>
+      </div>
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Canales en tiempo real</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Conversaciones de ida y vuelta por grupo, nivel, asignatura o tarea.</p>
+      </div>
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Mensajes con familias</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Conversaciones privadas entre el personal y los padres, con confirmación de lectura.</p>
+      </div>
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="m9 14 2 2 4-4"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Asistencia</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Por clase, con aviso a las familias cuando hay ausencias.</p>
+      </div>
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Notas y evaluaciones</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Calificaciones por asignatura y trimestre, más evaluación de hábitos y conducta.</p>
+      </div>
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Planes de estudio y horarios</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Planes por nivel, grupos y horarios semanales.</p>
+      </div>
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Tienda del colegio</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Su propia tienda en línea para uniformes, libros y actividades.</p>
+      </div>
+      <div style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><path d="M2 10h20"></path></svg>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 19px; line-height: 24px;">Pagos</h3>
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Cobros y pedidos en un solo lugar, con recibos para las familias.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PANAMA ============ -->
+<section style="padding: 0 0 clamp(64px, 8vw, 112px);">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px);">
+    <div style="background: #EEF2FD; border-radius: 28px; padding: clamp(32px, 5vw, 64px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 40px; align-items: center;">
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <p style="display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #1D4ED8;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.99-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>Hecho en Panamá</p>
+        <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.12; letter-spacing: -0.02em; text-wrap: balance;">Hecho para como funcionan los colegios aquí.</h2>
+        <p style="font-size: 18px; line-height: 28px; color: #26314F; text-wrap: pretty;">Skooltrak nace pensado para el sistema educativo panameño, no adaptado desde otro país.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 16px;">
+        <div style="background: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 6px;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 18px;">De Preescolar a Media</span>
+          <span style="font-size: 15px; line-height: 22px; color: #475069;">De prekínder a 12°, con los planes de estudio de cada nivel.</span>
+        </div>
+        <div style="background: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 6px;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 18px;">Español e inglés</span>
+          <span style="font-size: 15px; line-height: 22px; color: #475069;">Ambos idiomas escritos con el mismo cuidado.</span>
+        </div>
+        <div style="background: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 6px;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 18px;">Los colores de su colegio</span>
+          <span style="font-size: 15px; line-height: 22px; color: #475069;">Las familias ven su marca en cada botón y enlace.</span>
+        </div>
+        <div style="background: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 6px;">
+          <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 18px;">Una sola factura, al colegio</span>
+          <span style="font-size: 15px; line-height: 22px; color: #475069;">Se factura a la institución. Las familias nunca pagan por usarlo.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GETTING STARTED ============ -->
+<section id="comenzar" style="background: #F4F6FB; border-top: 1px solid #DCE2EF; border-bottom: 1px solid #DCE2EF; padding: clamp(64px, 8vw, 112px) 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: flex; flex-direction: column; gap: 48px;">
+    <div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px;">
+      <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #1D4ED8;">Cómo empezar</p>
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance;">Del registro al primer mensaje en tres vueltas.</h2>
+    </div>
+    <div aria-hidden="true" style="position: relative; height: 24px;">
+      <div style="position: absolute; left: 0; right: 0; top: 6px; height: 12px; border-radius: 999px; background: #DCE2EF;"></div>
+      <div style="position: absolute; left: 0; width: 66%; top: 6px; height: 12px; border-radius: 999px; background: #1D4ED8;"></div>
+      <div style="position: absolute; left: calc(66% - 12px); top: 0; width: 24px; height: 24px; border-radius: 999px; background: #F97316; border: 4px solid #F4F6FB;"></div>
+    </div>
+    <ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 24px;">
+      <li style="display: flex; flex-direction: column; gap: 12px;">
+        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 15px; color: #1D4ED8;">01</span>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 22px; line-height: 28px;">Configure su colegio</h3>
+        <p style="font-size: 16px; line-height: 24px; color: #475069;">Niveles, planes de estudio, asignaturas y grupos, con nuestro equipo a su lado. Sin migración de sistemas: empieza limpio.</p>
+      </li>
+      <li style="display: flex; flex-direction: column; gap: 12px;">
+        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 15px; color: #1D4ED8;">02</span>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 22px; line-height: 28px;">Invite al personal y a las familias</h3>
+        <p style="font-size: 16px; line-height: 24px; color: #475069;">Cada persona recibe una invitación ligada a su rol y a sus hijos. Los canales están listos en cuanto se une.</p>
+      </li>
+      <li style="display: flex; flex-direction: column; gap: 12px;">
+        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 15px; color: #1D4ED8;">03</span>
+        <h3 style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 22px; line-height: 28px;">Arranque el año escolar</h3>
+        <p style="font-size: 16px; line-height: 24px; color: #475069;">Publique el primer comunicado, tome la primera asistencia, abra la tienda. Todos en la misma pista desde el primer día.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section id="demo" style="padding: clamp(64px, 8vw, 112px) 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px);">
+    <div style="position: relative; overflow: hidden; background: #1D4ED8; color: #FFFFFF; border-radius: 28px; padding: clamp(40px, 6vw, 80px); display: flex; flex-direction: column; gap: 24px; align-items: flex-start;">
+      <div aria-hidden="true" style="position: absolute; right: -80px; top: 48px; width: 360px; height: 56px; border-radius: 999px; background: #0B1530;"></div>
+      <div aria-hidden="true" style="position: absolute; right: -40px; top: 124px; width: 260px; height: 56px; border-radius: 999px; background: #EEF2FD;"></div>
+      <div aria-hidden="true" style="position: absolute; right: 236px; top: 120px; width: 64px; height: 64px; border-radius: 999px; background: #F97316;"></div>
+      <h2 style="position: relative; max-width: 640px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 4vw, 52px); line-height: 1.06; letter-spacing: -0.02em; text-wrap: balance;">Ponga a todo su colegio en la misma pista.</h2>
+      <p style="position: relative; max-width: 560px; font-size: 18px; line-height: 28px; color: #FFFFFF;">Conozca Skooltrak con sus propios niveles y grupos en un recorrido de 30 minutos. Le mostramos qué cambia para su personal, sus docentes, sus familias y sus estudiantes.</p>
+      <div style="position: relative; display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="/#" style="display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 600; color: #1D4ED8; background: #FFFFFF; text-decoration: none; padding: 16px 28px; border-radius: 999px;">Agendar una demo
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></a>
+        <a href="mailto:[SU CORREO]" style="display: inline-flex; align-items: center; font-size: 16px; font-weight: 600; color: #FFFFFF; text-decoration: none; padding: 16px 28px; border-radius: 999px; border: 1px solid #FFFFFF;">Escríbanos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer style="border-top: 1px solid #DCE2EF; padding: 56px 0 40px;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); display: flex; flex-direction: column; gap: 40px;">
+    <div style="display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
+      <div style="display: flex; flex-direction: column; gap: 14px; max-width: 320px;">
+        <img src="/skooltrak-logo.svg" alt="Skooltrak" style="height: 28px; width: auto; align-self: flex-start;">
+        <p style="font-size: 15px; line-height: 22px; color: #475069;">Progreso, en marcha. Gestión escolar y comunicación para los colegios de Panamá.</p>
+      </div>
+      <div style="display: flex; gap: 56px; flex-wrap: wrap;">
+        <nav aria-label="Producto" style="display: flex; flex-direction: column; gap: 10px; font-size: 14px;">
+          <span style="font-weight: 600; color: #0B1530;">Producto</span>
+          <a href="/#plataforma" style="color: #475069; text-decoration: none;">Plataforma</a>
+          <a href="/#seguridad" style="color: #475069; text-decoration: none;">Seguridad</a>
+          <a href="/#comenzar" style="color: #475069; text-decoration: none;">Cómo empezar</a>
+        </nav>
+        <nav aria-label="Para quién es" style="display: flex; flex-direction: column; gap: 10px; font-size: 14px;">
+          <span style="font-weight: 600; color: #0B1530;">Para quién es</span>
+          <a href="/#administracion" style="color: #475069; text-decoration: none;">Administración</a>
+          <a href="/#docentes" style="color: #475069; text-decoration: none;">Docentes</a>
+          <a href="/#familias" style="color: #475069; text-decoration: none;">Familias</a>
+          <a href="/#estudiantes" style="color: #475069; text-decoration: none;">Estudiantes</a>
+        </nav>
+        <nav aria-label="Empresa" style="display: flex; flex-direction: column; gap: 10px; font-size: 14px;">
+          <span style="font-weight: 600; color: #0B1530;">Empresa</span>
+          <a href="/#demo" style="color: #475069; text-decoration: none;">Contacto</a>
+          <a href="/#" style="color: #475069; text-decoration: none;">Privacidad</a>
+          <a href="/#" style="color: #475069; text-decoration: none;">Términos</a>
+        </nav>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 24px; border-top: 1px solid #DCE2EF; font-size: 13px; color: #475069;">
+      <span>© 2026 Skooltrak · Panamá</span>
+      <span>[SU CORREO DE CONTACTO] · [SU TELÉFONO]</span>
+    </div>
+  </div>
+</footer>
+
+</div>
