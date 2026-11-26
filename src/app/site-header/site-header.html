@@ -27,7 +27,7 @@
       </nav>
       <div class="actions">
         <a class="lang" [href]="copy().switchHref" [attr.lang]="copy().switchLang" [attr.aria-label]="copy().switchLabel">{{ copy().switchText }}</a>
-        <a class="sign-in" [href]="lang() === 'en' ? '/en#' : '/#'" (click)="close()">{{ copy().signIn }}</a>
+        <a class="sign-in" href="https://app.skooltrak.com" (click)="close()">{{ copy().signIn }}</a>
         <a class="demo" [href]="lang() === 'en' ? '/en#demo' : '/#demo'" (click)="close()">{{ copy().demo }}</a>
       </div>
     </div>
