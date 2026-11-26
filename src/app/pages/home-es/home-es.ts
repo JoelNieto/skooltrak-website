@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { SiteHeader } from '../../site-header/site-header';
 import { applyPageMeta } from '../page-meta';
 
 @Component({
   selector: 'app-home-es',
+  imports: [SiteHeader],
   templateUrl: './home-es.html',
 })
 export class HomeEs {
